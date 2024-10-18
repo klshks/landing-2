@@ -1,4 +1,8 @@
 @import url(reset);
+body {
+  background-color: #f6f7ff;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -39,15 +43,15 @@
   width: 433px;
   height: 19px;
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
 }
 .header .header-navigaton__tab {
   color: #272323;
   text-decoration: none;
-  font-size: 14px;
-  line-height: 24px;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
 .header .header-navigaton__tab:hover {
   color: #4238af;
@@ -78,18 +82,165 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
   width: 117px;
   height: 19px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
 .header .header-authentication__tab {
   color: #272323;
   text-decoration: none;
-  font-size: 14px;
-  line-height: 24px;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;
 }
 .header .header-authentication__tab:hover {
   color: #4238af;
+}
+
+.section-welcome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 647px;
+}
+.section-welcome .section-welcome__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+}
+.section-welcome .section-welcome__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  width: 543px;
+  height: 328px;
+  margin-top: 150px;
+}
+.section-welcome .section-welcome__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #272323;
+}
+.section-welcome .section-welcome__title {
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 55px;
+}
+.section-welcome .section-welcome__title-detail {
+  color: #ff5c01;
+  margin: 0;
+  width: 100%;
+}
+.section-welcome .section-welcome__subtitle {
+  color: #a8a8a8;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.section-welcome .section-welcome__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 337px;
+  height: 44px;
+}
+.section-welcome .section-welcome__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 155px;
+  height: 100%;
+}
+.section-welcome .section-welcome__button-detail:hover {
+  background-color: #4238af;
+}
+.section-welcome .section-welcome__button-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  width: 100%;
+  background-color: #544cac;
+  color: #ffffff;
+  border-radius: 6px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 62px;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+.section-welcome .section-welcome__button-detail:hover {
+  background-color: #4238af;
+}
+.section-welcome .section-welcome_button-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px #a8a8a8 solid;
+  border-radius: 6px;
+  width: 143px;
+  height: 100%;
+}
+.section-welcome .section-welcome__tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: #272323;
+}
+.section-welcome .section-welcome__button-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 62px;
+}
+.section-welcome .section-welcome__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
 }

@@ -1,9 +1,21 @@
 @import url(reset);
+
 $color1: #f6f7ff;
 $color2: #272323;
 $color3: #4238af;
+$color4: #ff5c01;
+$color5: #a8a8a8;
+$color6: #544cac;
 
+@mixin font ($w, $s, $h) {
+    font-weight: $w;
+    font-size: $s;
+    line-height: $h;
+}
 
+body {
+    background-color: $color1;
+}
 .header {
     display: flex;
     margin: 0 auto; 
@@ -28,14 +40,12 @@ $color3: #4238af;
         width: 433px;
         height: 19px;
         font-family: 'Open Sans', sans-serif;
-        font-weight: 400;
     }
     .header-navigaton__tab {
         color: $color2;
         text-decoration: none;
-        font-size: 14px;
-        line-height: 24px;
         transition: color 0.3s;
+        @include font (400, 14px, 24px); 
     }
     .header-navigaton__tab:hover {
         color: $color3;
@@ -61,18 +71,107 @@ $color3: #4238af;
         display: flex;
         justify-content: space-around;
         font-family: 'Open Sans', sans-serif;
-        font-weight: 400;
         width: 117px;
         height: 19px;
+        @include font (400, 14px, 24px);
     }
     .header-authentication__tab {
         color: $color2;
         text-decoration: none;
-        font-size: 14px;
-        line-height: 24px;
         transition: color 0.3s;
     }
     .header-authentication__tab:hover {
         color: $color3;
+    }
+}
+.section-welcome {
+    display: flex;
+    height: 647px;
+    .section-welcome__content {
+        display: flex;
+        margin: 0 auto;
+    }
+    .section-welcome__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        width: 543px;
+        height: 328px;
+        margin-top: 150px;
+    }
+    .section-welcome__text {
+        display: flex;
+        flex-direction: column;
+        color: $color2;
+    }
+    .section-welcome__title {
+        font-family: 'Prompt', sans-serif;
+        @include font (400, 45px, 55px);
+    }
+    .section-welcome__title-detail {
+        color: $color4;
+        margin: 0;
+        width: 100%;
+    }
+    .section-welcome__subtitle {
+        color: $color5;
+        font-family: 'Open Sans', sans-serif;
+        @include font(400, 14px, 24px);
+    }
+    .section-welcome__buttons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 337px;
+        height: 44px;
+    }
+    .section-welcome__button {
+        display: flex;
+        width: 155px;
+        height: 100%;
+    }
+    .section-welcome__button-detail:hover {
+        background-color: $color3;
+    }
+    .section-welcome__button-detail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        width: 100%;
+        background-color: $color6;
+        color: #ffffff;
+        border-radius: 6px;
+        font-family: 'Open Sans', sans-serif;
+        @include font(400, 16px, 62px);
+        transition: background-color 0.3s;
+    }
+    .section-welcome__button-detail:hover {
+        background-color: $color3;
+    }
+    .section-welcome_button-right {
+        display: flex;
+        border: 1px $color5 solid;
+        border-radius: 6px;
+        width: 143px;
+        height: 100%;
+    }
+    .section-welcome__tab {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        text-decoration: none;
+        color: $color2;
+    }
+    .section-welcome__button-text {
+        font-family: 'Open Sans', sans-serif;
+        @include font(400, 16px, 62px);
+    }
+    .section-welcome__image {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
     }
 }
