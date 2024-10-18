@@ -1,0 +1,9 @@
+@import url(reset);
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1110px;
+  height: 45.35px;
+  background-color: #f6f7ff;
+}
