@@ -414,3 +414,174 @@ body {
         margin: 0 auto;
     }
 }
+.section-jobs {
+    display: flex;
+    height: 1000px;
+    background-color: #ffffff;
+    .section-jobs__content {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 1461px;
+        height: 787px;
+        margin-top: 106.5px;
+    }
+    .section-jobs__header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 543px;
+        height: 117px;
+    }
+    .section-jobs__header-title {
+        font-family: 'Oswald', sans-serif;
+        @include font(400, 40px, 50px);
+    }
+    .section-jobs__header-subtitle {
+        font-family: 'Open Sans', sans-serif;
+        @include font(400, 14px, 24px);
+        color: $color5;
+        text-align: center;
+    }
+    .section-jobs__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .section-jobs__buttons {
+        display: flex;
+        justify-content: space-between;
+        width: 140px;
+    }
+    .section-jobs__card-selected {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #f9faff;
+        width: 380px;
+        height: 465px;
+        box-shadow: 0px 12px 30px 0px rgba(71, 71, 71, 0.15);
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    .section-jobs__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #f9faff;
+        width: 380px;
+        height: 465px;
+        box-shadow: 0px 12px 30px 0px rgba(71, 71, 71, 0.15);
+        border-radius: 20px;
+        background-color: #ffffff;
+    }
+    .section-jobs__card-options {
+        display: flex;
+        padding-left: 250px;
+        height: 10px;
+    }
+    .section-jobs__card-options-tab {
+        text-decoration: none;
+        color: $color2;
+        font-size: 40px;
+    }
+    .section-jobs__card-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 230px;
+        height: 371px;
+    }
+    .section-jobs__initials {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 50px;
+    }
+    .section-jobs__initials-title {
+        font-family: 'Open Sans', sans-serif;
+        @include font(400, 20px, 50px);
+    }
+    .section-jobs__initials-subtitle {
+        font-family: 'Open Sans', sans-serif;
+        @include font(400, 14px, 22px);
+        color: #4238af;
+    }
+    .section-jobs__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 230px;
+        height: 60px;
+    }
+    .section-jobs__info-salary {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .section-jobs__info-text {
+        font-family: 'Open Sans', sans-serif;
+        @include font(400, 16px, 50px)
+    }
+    .section-jobs__info-location {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .section-jobs__info-text-details {
+        color: $color5;
+        font-family: 'Open Sans', sans-serif;
+        @include font(400, 14px, 50px)
+    }
+    .section-jobs__tabs {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 230px;
+        height: 49px;
+    }
+    .section-jobs__tab-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 152px;
+        height: 49px;
+        background-color: #bdbbd9;
+        border-radius: 47px;
+        text-decoration: none;
+        color: #544cac;
+        font-family: 'Open Sans';
+        @include font(400, 16px, 62px);
+        transition: background-color 0.3s;
+    }
+    .section-jobs__tab-right:hover {
+        background-color: #544cac;
+        color: #ffffff;
+    }
+    .section-jobs__action {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 152px;
+        height: 49px;
+        background-color: #544cac;
+        border-radius: 47px;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: 'Open Sans';
+        @include font(400, 16px, 62px);
+    }
+    .section-jobs__card:last-child {
+        overflow: hidden;
+    }
+}
