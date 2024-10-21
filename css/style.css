@@ -1140,3 +1140,245 @@ body {
   font-size: 16px;
   line-height: 24px;
 }
+
+.section-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 900px;
+  background-color: #ffffff;
+}
+.section-price .section-price__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  width: 1110px;
+  height: 729px;
+  margin-top: 85.5px;
+}
+.section-price .section-price__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 543px;
+  height: 120px;
+}
+.section-price .section-price__header-title {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  color: #272323;
+}
+.section-price .section-price__header-subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #a8a8a8;
+}
+.section-price .section-price__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 370px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+.section-price .section-price__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 350px;
+  height: 537px;
+  background-color: #ffffff;
+  -webkit-box-shadow: -1px 1px 20px 0px rgba(128, 128, 128, 0.1);
+          box-shadow: -1px 1px 20px 0px rgba(128, 128, 128, 0.1);
+  border-radius: 20px;
+}
+.section-price .section-price__card-selected {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 350px;
+  height: 537px;
+  background-color: #f9faff;
+  -webkit-box-shadow: -1px 1px 20px 0px rgba(128, 128, 128, 0.1);
+          box-shadow: -1px 1px 20px 0px rgba(128, 128, 128, 0.1);
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.section-price .section-price__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 219px;
+  height: 412px;
+}
+.section-price .section-price__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 140px;
+}
+.section-price .section-price__label-details {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4238af;
+}
+.section-price .section-price__cost-details {
+  font-family: "Oswald";
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 55px;
+}
+.section-price .section-price__period-details {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #a8a8a8;
+}
+.section-price .section-price__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 194px;
+  width: 100%;
+}
+.section-price .section-price__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 104px;
+  width: 100%;
+}
+.section-price .section-price__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section-price .section-price__item-details {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #a8a8a8;
+  margin-left: 10px;
+}
+.section-price .section-price__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section-price .section-price__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 172px;
+  height: 43px;
+  background-color: #bdbbd9;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 62px;
+}
+.section-price .section-price__button:hover {
+  background-color: #544cac;
+}

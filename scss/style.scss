@@ -714,3 +714,141 @@ body {
         @include font(400, 16px, 24px);
     }
 }
+.section-price {
+    display: flex;
+    height: 900px;
+    background-color: #ffffff;
+    .section-price__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        width: 1110px;
+        height: 729px;
+        margin-top: 85.5px;
+    }
+    .section-price__header {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 543px;
+        height: 120px;
+    }
+    .section-price__header-title {
+        font-family: 'Oswald', sans-serif;
+        @include font(400, 40px, 50px);
+        color: $color2;
+    }
+    .section-price__header-subtitle {
+        font-family: 'Open Sans', sans-serif;
+        @include font(400, 14px, 24px);
+        color: $color5;
+    }
+    .section-price__cards {
+        display: flex;
+        width: 100%;
+        height: 370px;
+        justify-content: space-between;
+        align-items: end;
+    }
+    .section-price__card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 537px;
+        background-color: #ffffff;
+        box-shadow: -1px 1px 20px 0px rgba(128, 128, 128, 0.1);
+        border-radius: 20px;
+    }
+    .section-price__card-selected {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 537px;
+        background-color: #f9faff;
+        box-shadow: -1px 1px 20px 0px rgba(128, 128, 128, 0.1);
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+    .section-price__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 219px;
+        height: 412px;
+    }
+    .section-price__heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 140px;
+    }
+    .section-price__label-details {
+        font-family: 'Open Sans', sans-serif;
+        @include font(600, 20px, 30px);
+        color: #4238af;
+    }
+    .section-price__cost-details {
+        font-family: 'Oswald';
+        @include font(400, 45px, 55px);
+    }
+    .section-price__period-details {
+        font-family: 'Open Sans', sans-serif;
+        @include font(400, 16px, 24px);
+        color: $color5;
+    }
+    .section-price__body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 194px;
+        width: 100%;
+    }
+    .section-price__items {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 104px;
+        width: 100%;
+    }
+    .section-price__item {
+        display: flex;
+        align-items: center;
+    }
+    .section-price__item-details {
+        font-family: 'Open Sans', sans-serif;
+        @include font(400, 14px, 24px);
+        color: $color5;
+        margin-left: 10px;
+    }
+    .section-price__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .section-price__button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 172px;
+        height: 43px;
+        background-color: #bdbbd9;
+        border-radius: 50px;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        transition: background-color 0.3s;
+        @include font(400, 16px, 62px);
+    }
+    .section-price__button:hover {
+        background-color: #544cac;
+    }
+}
