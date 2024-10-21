@@ -485,6 +485,7 @@ body {
         display: flex;
         padding-left: 250px;
         height: 10px;
+        align-items: end;
     }
     .section-jobs__card-options-tab {
         text-decoration: none;
@@ -583,5 +584,95 @@ body {
     }
     .section-jobs__card:last-child {
         overflow: hidden;
+    }
+}
+.section-feedback {
+    display: flex;
+    height: 600px;
+    background-color: #ffffff;
+    .section-feedback__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 512px;
+        margin: 0 auto;
+        margin-top: 44px;
+    }
+    .section-feedback__header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        width: 543px;
+        height: 100px;
+    }
+    .section-feedback__header-title {
+        font-family: 'Oswald', sans-serif;
+        @include font(400, 40px, 50px);
+    }
+    .section-feedback__header-subtitle {
+        font-family: 'Open Sans', sans-serif;
+        @include font(400, 14px, 24px);
+        color: $color5;
+    }
+    .section-feedback__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1110px;
+    }
+    .section-feedback__images {
+        display: flex;
+        position: relative;
+        width: 350px;
+        height: 350px;
+    }
+    .section-feedback__image-details {
+        position: absolute;
+        left: 60px;
+    }
+    .section-feedback__image-detail {
+        top: 270px;
+        position: absolute;
+    }
+    .section-feedback__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 731px;
+        height: 281px;
+    }
+    .section-feedback__heading {
+        display: flex;
+        flex-direction: column;
+    }
+    .section-feedback__heading-title {
+        font-family: 'Open Sans', sans-serif;
+        @include font(600, 20px, 30px);
+    }
+    .section-feedback__heading-subtitle {
+        font-family: 'Open Sans';
+        @include font(400, 14px, 24px);
+        color: $color5;
+    }
+    .section-feedback__rating {
+        display: flex;
+        justify-content: end;
+        width: 100%;
+    }
+    .section-feedback__text {
+        display: flex;
+        width: 100%;
+        height: 99px;
+    }
+    .section-feedback__text-details {
+        font-family: 'Open Sans', sans-serif;
+        @include font(400, 14px, 24px);
+        color: $color5;
+    }
+    .section-feedback__footer {
+        display: flex;
+        justify-content: space-between;
     }
 }
