@@ -7,6 +7,11 @@ body {
   background-color: #ffffff;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1547,4 +1552,275 @@ body {
 }
 .section-footer .section-footer__socials-tab:hover {
   background-color: #5f59be;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  body {
+    background-color: red;
+  }
+  .header {
+    height: 250px;
+    width: 100%;
+    position: static;
+  }
+  .header .header-content {
+    width: 310px;
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 230px;
+  }
+  .header .header-navigation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 120px;
+  }
+  .header .header-search {
+    display: none;
+  }
+  .section-welcome {
+    height: 900px;
+  }
+  .section-welcome .section-welcome__content {
+    height: 900px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .section-welcome .section-welcome__image {
+    width: 300px;
+  }
+  .section-welcome .section-welcome__info {
+    margin-top: 50px;
+    width: 310px;
+    text-align: center;
+    height: 550px;
+  }
+  .section-welcome .section-welcome__buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 120px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .section-welcome .section-welcome__button {
+    height: 44px;
+  }
+  .section-welcome .section-welcome_button-right {
+    height: 44px;
+  }
+  .section-logotype {
+    height: 800px;
+  }
+  .section-logotype .section-logotype__icons {
+    height: 750px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-process .section-process__image {
+    display: none;
+  }
+  .section-process .section-process__content, .section-process .section-process__information {
+    width: 310px;
+  }
+  .section-process .section-process__card {
+    width: 310px;
+  }
+  .section-process .section-process__icon-one {
+    margin-left: 100px;
+  }
+  .section-process .section-process__unfolded {
+    width: 310px;
+  }
+  .section-process .section-process__icon-two {
+    margin-left: 95px;
+  }
+  .section-process .section-process__text {
+    width: 290px;
+    font-size: 8px;
+  }
+  .section-process .section-process__icon-third {
+    margin-left: 155px;
+  }
+  .section-advantages {
+    height: 1200px;
+  }
+  .section-advantages .section-advantages__content {
+    margin: 0;
+    width: 310px;
+    margin: 0 auto;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  .section-advantages .section-advantages__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 310px;
+    height: 800px;
+  }
+  .section-advantages .section-advantages__card-selected {
+    margin-bottom: 0;
+  }
+  .section-advantages .section-advantages__card {
+    width: 310px;
+  }
+  .section-advantages .section-advantages__card-selected {
+    width: 310px;
+  }
+  .section-advantages .section-advantages__header-subtitle {
+    width: 300px;
+  }
+  .section-jobs {
+    height: 2000px;
+  }
+  .section-jobs .section-jobs__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 1500px;
+  }
+  .section-jobs .section-jobs__buttons {
+    display: none;
+  }
+  .section-jobs .section-jobs__content {
+    width: 310px;
+    height: 1800px;
+  }
+  .section-jobs .section-jobs__header {
+    width: 310px;
+  }
+  .section-jobs .section-jobs__card-selected {
+    width: 310px;
+    margin-bottom: 0;
+  }
+  .section-jobs .section-jobs__card {
+    width: 310px;
+  }
+  .section-feedback {
+    height: 1200px;
+  }
+  .section-feedback .section-feedback__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 310px;
+  }
+  .section-feedback .section-feedback__content {
+    width: 310px;
+    height: 1100px;
+  }
+  .section-feedback .section-feedback__header {
+    width: 310px;
+  }
+  .section-feedback .section-feedback__info {
+    width: 310px;
+    height: 500px;
+  }
+  .section-feedback .section-feedback__text {
+    height: 300px;
+  }
+  .section-statistics {
+    height: 600px;
+  }
+  .section-statistics .section-statistics__container {
+    width: 310px;
+    height: 500px;
+  }
+  .section-statistics .section-statistics__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 400px;
+  }
+  .section-price {
+    height: 2000px;
+  }
+  .section-price .section-price__content {
+    width: 310px;
+    height: 1800px;
+  }
+  .section-price .section-price__cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 310px;
+    height: 1600px;
+  }
+  .section-price .section-price__header {
+    width: 310px;
+    height: 150px;
+  }
+  .section-price .section-price__card {
+    width: 310px;
+    height: 450px;
+  }
+  .section-price .section-price__card-selected {
+    width: 310px;
+    margin-bottom: 0;
+    height: 450px;
+  }
+  .section-footer {
+    height: 1250px;
+  }
+  .section-footer .section-footer__content {
+    width: 310px;
+    height: 1200px;
+  }
+  .section-footer .section-footer__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 1000px;
+    text-align: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .section-footer .section-footer__items {
+    height: 150px;
+  }
+  .section-footer .section-footer__bottom {
+    width: 310px;
+    height: 500px;
+  }
+  .section-footer .section-footer__line {
+    width: 310px;
+  }
+  .section-footer .section-footer__navigations {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 300px;
+  }
+  .section-footer .section-footer__tabs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 200px;
+  }
 }
