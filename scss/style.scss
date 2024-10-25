@@ -1185,3 +1185,253 @@ body {
         }
     }
 }
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background-color: yellow;
+    }
+    .header {
+        width: 100%;
+        .header-navigation {
+            width: 300px;
+        }
+        .header-navigaton__tab {
+            font-size: 12px;
+        }
+        .header-search {
+            width: 200px;
+        }
+        .header-search__button {
+            left: 170px;
+        }
+        .header-authentication {
+            font-size: 12px;
+        }
+    }
+    .section-welcome {
+        height: 580px;
+        .section-welcome__image {
+            width: 350px;
+        }
+        .section-welcome__info {
+            width: 400px;
+        }
+    }
+    .section-logotype {
+        .section-logotype__icons {
+            width: 750px;
+        }
+    }
+    .section-process {
+        height: 700px;
+        .section-process__content {
+            width: 750px;
+            height: 600px;
+            flex-direction: column;
+            align-items: center;
+        }
+        .section-process__images {
+            display: none;
+        }
+    }
+    .section-advantages {
+        height: 1100px;
+        .section-advantages__content, .section-advantages__cards {
+            width: 750px;
+        }
+        .section-advantages__content {
+            height: 1000px;
+        }
+        .section-advantages__cards {
+            flex-direction: column;
+            height: 800px;
+            align-items: center;
+        }
+        .section-advantages__card-selected {
+            margin-bottom: 0;
+        }
+    }
+    .section-jobs {
+        .section-jobs__content {
+            width: 750px;
+        }
+        .section-jobs__card:last-child {
+            display: none;
+        }
+        .section-jobs__card-selected {
+            margin-bottom: 0;
+        }
+    }
+    .section-feedback {
+        height: 900px; 
+        .section-feedback__container {
+            flex-direction: column;
+            width: 769px;
+            height: 800px;
+            margin-top: 50px;
+        }
+    }
+    .section-statistics {
+        .section-statistics__container {
+            width: 90%;
+        }
+        .section-statistics__content {
+            width: 80%;
+        }
+    }
+    .section-price {
+        height: 2050px;
+        .section-price__content {
+            height: 1900px;
+        }
+        .section-price__cards {
+            flex-direction: column;
+            height: 1700px;
+            align-items: center;
+        }
+        .section-price__card-selected {
+            margin-bottom: 0;
+        }
+    } 
+    .section-footer {
+        .section-footer__container {
+            width: 750px;
+        }
+        .section-footer__bottom {
+            width: 750px;
+        }
+        .section-footer__line {
+            width: 750px;
+        }
+        .section-footer__item-title {
+            font-size: 20px;
+        }
+        .section-footer__item {
+            font-size: 12px;
+        }
+        .section-footer__tabs {
+            width: 400px;
+        }
+    } 
+}
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    body {
+        background-color: blue;
+    }
+    .header {
+        width: 100%;
+        .header-navigation {
+            width: 300px;
+        }
+        .header-navigaton__tab {
+            font-size: 12px;
+        }
+        .header-search {
+            width: 200px;
+        }
+        .header-search__button {
+            left: 170px;
+        }
+        .header-authentication {
+            font-size: 12px;
+        }
+    }
+    .section-welcome {
+        .section-welcome__info {
+            width: 500px;
+        }
+        .section-welcome__image {
+            width: 450px;
+        }
+    }
+    .section-logotype {
+        .section-logotype__icons {
+            width: 90%;
+        }
+    }
+    .section-process {
+        .section-process__images {
+            width: 450px;
+            height: 350px;
+        }
+        .section-process__image {
+            display: flex;
+            width: 450px;
+            height: 350px;
+        }
+        .section-process__content {
+            width: 950px;
+        }
+    }
+    .section-advantages {
+        .section-advantages__card {
+            width: 300px;
+        }
+        .section-advantages__card-selected {
+            width: 300px;
+        }
+        .section-advantages__content, .section-advantages__cards {
+            width: 1000px;
+        }
+    }
+    .section-jobs {
+        .section-jobs__card:last-child {
+            display: none;
+        }
+        .section-jobs__content {
+            width: 1000px;
+        }
+    }
+    .section-feedback {
+        .section-feedback__container {
+            width: 1000px;
+        }
+        .section-feedback__info {
+            width: 600px;
+        }
+        .section-feedback__text {
+            height: 150px;
+        }
+    }
+    .section-statistics {
+        .section-statistics__container {
+            width: 90%;
+        }
+        .section-statistics__content {
+            width: 80%;
+        }
+    }
+    .section-price {
+        height: 800px;
+        .section-price__card {
+            width: 300px;
+            height: 437px;
+        }
+        .section-price__container {
+            height: 352px;
+        }
+        .section-price__cards {
+            width: 90%;
+        }
+        .section-price__card-selected {
+            width: 300px;
+            height: 437px;
+        }
+        .section-price__content {
+            height: 619px;
+        }
+    }
+    .section-footer {
+        .section-footer__container, .section-footer__bottom, .section-footer__line {
+            width: 900px;
+        }
+        .section-footer__item-title {
+            font-size: 22px;
+        }
+        .section-footer__item {
+            font-size: 14px;
+        }
+        .section-footer__tabs {
+            width: 500px;
+        }
+    }
+}
